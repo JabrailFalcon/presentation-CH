@@ -1,0 +1,47 @@
+.mainContainer {
+   
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.window {
+  height: 100%;
+  width: 450px;  
+  overflow: hidden;
+}
+.allPagesContainer {
+  height: 100%;
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.arrow {
+  cursor: pointer;
+  width: 100px;
+  height: 2em;
+}
+
+@media screen and (min-width: 769px) {
+  .mainContainer {
+    max-width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 0;
+      
+  }
+
+  .window {
+    overflow: hidden;
+      /* width: 650px; 
+      height: 650px;  */
+  }
+
+   img {
+    /* width: 650px; 
+      height: 650px;  */
+  }
+  
+}

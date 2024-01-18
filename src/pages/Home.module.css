@@ -1,0 +1,58 @@
+.container {
+ max-width: 1000px; 
+ margin: 0 auto;
+ margin-top: 120px;
+   height: auto; /* Або інші значення за вибором */
+  overflow: auto;
+
+}
+.img{
+    width:100%;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.title {
+  color: #ff6600;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 48px;
+  word-wrap: break-word;
+  justify-content: center;
+  display: flex;
+}
+
+p, h2 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: white; 
+  text-decoration: none;
+}
+
+.img {
+  max-width: 100%;
+ text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.1); 
+}
+/* .containerImg{
+   margin-top: 140px;
+   margin-bottom: 40px;
+
+} */
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%; 
+ 
+  }
+
+
+  p, h2 {
+    font-size: 14px;
+  }
+
+}
